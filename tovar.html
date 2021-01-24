@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style-tovar.min.css">
+    <title>Pirosmani</title>
+</head>
+<body>
+    <div class="page">
+        
+        <div class="popup">
+    <div class="cabinet">
+        <div class="cabinet__close">
+            <img src="img/close.svg" alt="">
+        </div>
+        <div class="cabinet__img">
+            <img src="img/personGrey.svg" alt="">
+        </div>
+        <div class="cabinet__text">Войти в личный кабинет</div>
+        <input type="tel" name="" placeholder="Телефон" id="" class="cabinet__tel">
+        <input type="password" name="" placeholder="Пароль" id="" class="cabinet__pass">
+        <div class="cabinet__ask">Забыли пароль?</div>
+        <div class="cabinet__btn">Войти</div>
+        <div class="cabinet__subtext">Впервые у нас? <span>Зарегистрироваться</span></div>
+    </div>
+    <div class="pasrec">
+        <div class="cabinet__close">
+            <img src="img/close.svg" alt="">
+        </div>
+        <div class="cabinet__img">
+            <img src="img/personGrey.svg" alt="">
+        </div>
+        <div class="cabinet__text">Восстановление пароля</div>
+        <input type="tel" name="" placeholder="Введите телефон" id="" class="cabinet__tel">
+        <input type="password" name="" minlength="6" placeholder="Новый пароль (мин. 6 символов)" id="" class="cabinet__pass">
+        <input type="password" name="" placeholder="Подтвердите пароль" id="" class="cabinet__pass">
+        <div class="pasrec__row">
+            <div class="pasrec__subtext">Отменить</div>
+            <div class="pasrec__btn">Обновить пароль</div>
+        </div>
+    </div>
+    <div class="regist">
+        <div class="cabinet__close">
+            <img src="img/close.svg" alt="">
+        </div>
+        <div class="cabinet__img">
+            <img src="img/personGrey.svg" alt="">
+        </div>
+        <div class="cabinet__text">Регистрация</div>
+        <input type="tel" name="" placeholder="Введите телефон" id="" class="cabinet__tel">
+        <input type="password" name="" minlength="6" placeholder="Пароль" id="" class="cabinet__pass">
+        <input type="password" name="" placeholder="Подтвердите пароль" id="" class="cabinet__pass">
+        <div class="regist__body">
+            <label for="element1" class="custom-checkbox">
+                <input type="checkbox" name="" id="element1" class="regist__1">
+                <span>Хочу получать выгодные предложения от магазина</span>
+            </label>
+            <label for="element2" class="custom-checkbox">
+                <input type="checkbox" name="" id="element2" class="regist__1" checked="checked">
+                <span><p>Принимаю условия <em>Пользовательского соглашения,</em> <i>Политики конфиденциальности</i></p></span>
+            </label>
+        </div>
+        <div class="cabinet__btn regist__btn">Зарегистрироваться</div>
+    </div>
+    <div class="subscribe">
+        <div class="cabinet__close">
+            <img src="img/close.svg" alt="">
+        </div>
+        <div class="cabinet__img">
+            <img src="img/email.svg" alt="">
+        </div>
+        <div class="cabinet__text">Подпишитесь на нашу рассылку и получите промокод на 500 RUB!</div>
+        <input type="email" name="" placeholder="E-mail" id="" class="subscribe__email">
+        <div class="cabinet__btn">Отправить</div>
+    </div>
+    <div class="bron">
+        <div class="bron__close">
+            <img src="img/plusBig.png" alt="">
+        </div>
+        <div class="bron__title">Бронирование стола</div>
+        <input type="text" placeholder="Имя" class="bron__input-big bron__name">
+        <div class="bron__row">
+            <div class="bron__column">
+                <input type="tel" placeholder="+380" class="bron__input-small bron__tel">
+                <label for="time" class="bron__label">
+                    <span>Время:</span>
+                    <input type="time" name="" id="time" class="bron__input-small bron__time">
+                </label>
+            </div>
+            <div class="bron__column">
+                <input type="number" placeholder="Количество человек" class="bron__input-small bron__num">
+                <label for="time" class="bron__label">
+                    <span>Дата:</span>
+                    <input type="date" placeholder="" name="" id="" class="bron__input-small bron__date">
+                </label>
+            </div>
+        </div>
+        <div class="bron__btn">Забронировать</div>
+    </div>
+</div>
+<header>
+    <div class="container">
+        <div class="container-header">
+            <div class="header__block">
+                <div class="header__burger">
+                    <div class="menu__icon"></div>
+                </div>
+                <a href="index.html" class="header__logo">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <div class="header__nav nav">
+                    <div class="big__nav">
+                        <div class="nav__menu-active">
+                            <div class="nav__menu-block">
+                                <div class="nav__menu-body">
+                            <div class="nav__menu-img">
+                                <img src="img/1.svg" alt="">
+                            </div>
+                            <div class="nav__menu-text">Супы</div>
+                                </div>
+                                <div class="nav__menu-body">
+                            <div class="nav__menu-img">
+                                <img src="img/2.svg" alt="">
+                            </div>
+                            <div class="nav__menu-text">Хачапури</div>
+                                </div>
+                                <div class="nav__menu-body">
+                            <div class="nav__menu-img">
+                                <img src="img/3.svg" alt="">
+                            </div>
+                            <div class="nav__menu-text">Холодные закуски</div>
+                                </div>
+                                <div class="nav__menu-body">
+                            <div class="nav__menu-img">
+                                <img src="img/4.svg" alt="">
+                            </div>
+                            <div class="nav__menu-text">Хинкали</div>
+                                </div>
+                                <div class="nav__menu-body">
+                            <div class="nav__menu-img">
+                                <img src="img/5.svg" alt="">
+                            </div>
+                            <div class="nav__menu-text">Шашлык</div>
+                                </div>
+                                <div class="nav__menu-body">
+                            <div class="nav__menu-img">
+                                <img src="img/6.svg" alt="">
+                            </div>
+                            <div class="nav__menu-text">Соусы</div>
+                                </div>
+                                <div class="nav__menu-body">
+                            <div class="nav__menu-img">
+                                <img src="img/7.svg" alt="">
+                            </div>
+                            <div class="nav__menu-text">Салаты</div>
+                                </div>
+                                <div class="nav__menu-body">
+                            <div class="nav__menu-img">
+                                <img src="img/8.svg" alt="">
+                            </div>
+                            <div class="nav__menu-text">Горячие блюда</div>
+                                </div>
+                                <div class="nav__menu-body">
+                            <div class="nav__menu-img">
+                                <img src="img/9.svg" alt="">
+                            </div>
+                            <div class="nav__menu-text">Гарнир</div>
+                                </div>
+                                <div class="nav__menu-body">
+                            <div class="nav__menu-img">
+                                <img src="img/10.svg" alt="">
+                            </div>
+                            <div class="nav__menu-text">Десерты</div>
+                                </div>
+                                <div class="nav__menu-body">
+                            <div class="nav__menu-img">
+                                <img src="img/11.svg" alt="">
+                            </div>
+                            <div class="nav__menu-text">Напитки</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__list">
+                        <div class="nav__item nav__menu ">Меню</div> 
+                        <a href="dostavka.html" class="nav__item">Доставка</a>
+                        <a href="oplata.html" class="nav__item">Оплата</a>
+                        <a class="nav__item nav__item-bron">Бронь стола</a>
+                    </div>
+                </div>
+                <div class="header__tel"><span>+7 (831) 282-60-00</span></div>
+                <div class="header__prof"></div>
+                <a href="cart.html" class="header__cart"></a>
+            </div>
+            <div class="shadow">
+                    <div class="shadow__header"></div>
+                    <div class="shadow__main">
+                        <div class="shadow__list">
+                            <div class="shadow__item shadow__item-menu">
+                                <div class="shadow__img">
+                                    <img src="img/12.svg" alt="">
+                                </div>
+                                <div class="shadow__text shadow__text-menu"><span>Меню</span></div>
+                                <div class="shadow__btn shadow__btn0">
+                                    <img src="img/ArrowWhite.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="shadow__block">
+                        <div class="nav__menu-body nav__menu-body-shadow">
+                    <div class="nav__menu-img nav__menu-img-shadow">
+                        <img src="img/1.1.svg" alt="">
+                    </div>
+                    <div class="nav__menu-text nav__menu-text-shadow">Супы</div>
+                        </div>
+                        <div class="nav__menu-body nav__menu-body-shadow">
+                    <div class="nav__menu-img nav__menu-img-shadow">
+                        <img src="img/2.1.svg" alt="">
+                    </div>
+                    <div class="nav__menu-text nav__menu-text-shadow">Хачапури</div>
+                        </div>
+                        <div class="nav__menu-body nav__menu-body-shadow">
+                    <div class="nav__menu-img nav__menu-img-shadow">
+                        <img src="img/3.1.svg" alt="">
+                    </div>
+                    <div class="nav__menu-text nav__menu-text-shadow">Холодные закуски</div>
+                        </div>
+                        <div class="nav__menu-body nav__menu-body-shadow">
+                    <div class="nav__menu-img nav__menu-img-shadow">
+                        <img src="img/4.1.svg" alt="">
+                    </div>
+                    <div class="nav__menu-text nav__menu-text-shadow">Хинкали</div>
+                        </div>
+                        <div class="nav__menu-body nav__menu-body-shadow">
+                    <div class="nav__menu-img nav__menu-img-shadow">
+                        <img src="img/5.1.svg" alt="">
+                    </div>
+                    <div class="nav__menu-text nav__menu-text-shadow">Шашлык</div>
+                        </div>
+                        <div class="nav__menu-body nav__menu-body-shadow">
+                    <div class="nav__menu-img nav__menu-img-shadow">
+                        <img src="img/6.1.svg" alt="">
+                    </div>
+                    <div class="nav__menu-text nav__menu-text-shadow">Соусы</div>
+                        </div>
+                        <div class="nav__menu-body nav__menu-body-shadow">
+                    <div class="nav__menu-img nav__menu-img-shadow">
+                        <img src="img/7.1.svg" alt="">
+                    </div>
+                    <div class="nav__menu-text nav__menu-text-shadow">Салаты</div>
+                        </div>
+                        <div class="nav__menu-body nav__menu-body-shadow">
+                    <div class="nav__menu-img nav__menu-img-shadow">
+                        <img src="img/8.1.svg" alt="">
+                    </div>
+                    <div class="nav__menu-text nav__menu-text-shadow">Горячие блюда</div>
+                        </div>
+                        <div class="nav__menu-body nav__menu-body-shadow">
+                    <div class="nav__menu-img nav__menu-img-shadow">
+                        <img src="img/9.1.svg" alt="">
+                    </div>
+                    <div class="nav__menu-text nav__menu-text-shadow">Гарнир</div>
+                        </div>
+                        <div class="nav__menu-body nav__menu-body-shadow">
+                    <div class="nav__menu-img nav__menu-img-shadow">
+                        <img src="img/10.1.svg" alt="">
+                    </div>
+                    <div class="nav__menu-text nav__menu-text-shadow">Десерты</div>
+                        </div>
+                        <div class="nav__menu-body nav__menu-body-shadow">
+                    <div class="nav__menu-img nav__menu-img-shadow2">
+                        <img src="img/11.1.svg" alt="">
+                    </div>
+                    <div class="nav__menu-text nav__menu-text-shadow">Напитки</div>
+                        </div>
+                            </div>
+                            <div class="shadow__item">
+                          <div class="shadow__img">
+                              <img src="img/13.svg" alt="">
+                          </div>
+                          <a href="dostavka.html" class="shadow__text"><span>Доставка</span></a>
+                          <a href="dostavka.html" class="shadow__btn">
+                              <img src="img/ArrowWhite.svg" alt="">
+                          </a>
+                            </div>
+                            <div class="shadow__item">
+                          <div class="shadow__img">
+                              <img src="img/14.svg" alt="">
+                          </div>
+                          <a href="oplata.html" class="shadow__text"><span>Оплата</span></a>
+                          <a href="oplata.html" class="shadow__btn">
+                              <img src="img/ArrowWhite.svg" alt="">
+                          </a>
+                            </div>
+                            <div class="shadow__item shadow__item-sub">
+                        <div class="shadow__img">
+                            <img src="img/15.svg" alt="">
+                        </div>
+                        <a href="support.html" class="shadow__text"><span>Поддержка</span></a>
+                        <a href="support.html" class="shadow__btn">
+                            <img src="img/ArrowWhite.svg" alt="">
+                        </a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>  
+    </div> 
+</header>
+
+
+
+        <div class="popup">
+            <div class="otsuv">
+                <div class="cabinet__close">
+                    <img src="img/close.svg" alt="">
+                </div>
+                <div class="otsuv__title">Добавить отзыв</div>
+                <div class="otsuv__row">
+                    <div class="otsuv__column1">
+                        <div class="otsuv__text">Ваша оценка:</div>
+                        <div class="otsuv__text">Ваше имя:</div>
+                        <div class="otsuv__text">Ваш отзыв:</div>
+                    </div>
+                    <div class="otsuv__column2">
+                        <div class="shop__rating">
+                            <div class="shop__rating1"></div>
+                            <div class="shop__rating2"></div>
+                            <div class="shop__rating3"></div>
+                            <div class="shop__rating4"></div>
+                            <div class="shop__rating4"></div>
+                        </div>
+                        <input type="text" class="otsuv__input" placeholder="Введите Ваше имя">
+                        <textarea name="" id="" class="otsuv__area"></textarea>
+                        <div class="otsuv__btn">Добавить отзыв</div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+        <main>
+            <div class="tovar">
+                <div class="container container-header">
+                    <div class="tovar__block1">
+                        <div class="tovar__img">
+                            <img src="img/2.png" alt="">
+                        </div>
+                        <div class="tovar__body">
+                            <div class="tovar__part1">
+                                <div class="tovar__title">Говядина 250гр</div>
+                            <div class="shop__rating">
+                                <div class="shop__rating1"></div>
+                                <div class="shop__rating2"></div>
+                                <div class="shop__rating3"></div>
+                                <div class="shop__rating4"></div>
+                                <div class="shop__rating5"></div>
+                            </div>
+                            <div class="tovar__subtext">Кол-во отзывов: <span>23</span></div>
+                            </div>
+                            <div class="tovar__part2">
+                                <div class="tovar__text1">Цена за уп. <span>1 050 ₽</span></div>
+                            <div class="tovar__text2">Кол-во шт в упаковке <span>4 шт.</span></div>
+                            <div class="tovar__colvo">Количество <span class="tovar__all"><span class="tovar__minus"></span>1шт<span class="tovar__plus"></span></span></div>
+                            </div>
+                            <div class="tovar__part3">
+                                <div class="tovar__itog">Итого к оплате <span>1 050 ₽</span></div>
+                            <div class="tovar__row">
+                                <a href="#" class="tovar__btn1">Купить</a>
+                                <a href="#" class="tovar__btn2">
+                                    <img src="img/cartWhite.svg" alt="">
+                                </a>
+                            </div></div>
+                            
+                        </div>
+                    </div>
+                    <div class="tovar__block2 tovar-block2">
+                        <div class="tovar-block2__body1">
+                            <div class="tovar-block2__row">
+                                <div class="tovar-block2__title tovar-block2__title1 tovar-block2__title-active">О товаре</div> 
+                                <div class="tovar-block2__title tovar-block2__title2">Параметры</div>
+                                <div class="tovar-block2__title tovar-block2__title3">Отзывы</div>
+                            </div>
+                            <div class="tovar-block2__main1 tovar-main1 active1820">
+                                <div class="tovar-main1__title"> Описание</div>
+                                <p class="tovar-main1__text">Полутвердый пластичный однородный сыр, слегка ломкий на изгибе. Пажитник придает легкое ореховое послевкусие. В Италии считается столовым сыром, который подходит к любому времени суток и к любому блюду и к вину</p>
+                                <p class="tovar-main1__text">Вес головки 500 г. +/-10%. Цена за 1 кг.</p>
+                                <p class="tovar-main1__text">Продукция компании Alpenville изготовлена преимущественно из Шарангского молока</p>
+                            </div>
+                            <div class="tovar-block2__main2 tovar-main2">
+                                <div class="tovar-main2__text">Калории: <span>420</span></div>
+                                <div class="tovar-main2__text">Жиры: <span>54</span></div>
+                                <div class="tovar-main2__text">Белки: <span>27</span></div>
+                                <div class="tovar-main2__text">Углеводы: <span>18</span></div>
+                                <div class="tovar-main2__text">Масса: <span>500 грам</span></div>
+                            </div>
+                            <div class="tovar-block2__main3 tovar-main3">
+                                <div class="tovar-main3__title">Отзывы</div>
+                                <div class="tovar-main3__slider tovar-main3__slider-container">
+                                    <div class="tovar-main3__item">
+                                        <div class="tovar-main3__body1">
+                                            <div class="tovar-main3__row">
+                                                <div class="tovar-main3__image">
+                                                    <img src="img/men.svg" alt="">
+                                                </div>
+                                                <div class="tovar-main3__block">
+                                                    <div class="tovar-main3__subrow">
+                                                        <div class="tovar-main3__name">Анатолий Петров</div>
+                                                        <div class="tovar-main3__icon">
+                                                            <img src="img/icon.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="shop__rating">
+                                                        <div class="shop__rating1"></div>
+                                                        <div class="shop__rating2"></div>
+                                                        <div class="shop__rating3"></div>
+                                                        <div class="shop__rating4"></div>
+                                                        <div class="shop__rating4"></div>
+                                                    </div>
+                                                    <div class="tovar-main3__sulka">vk.com/anatoliy</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tovar-main3__body2">
+                                            <div class="tovar-main3__text">Заказал 5кг мяса, живу в Московской области. Как и обещал оператор, привезли через 1,5 часа. Свежее, как будто было живое еще по дороге. Действительно натуральные продукты. Я обязательно буду заказывать дальше. А теперь подробнее о плюсах и минусах всего магази...</div>
+                                            <div class="tovar-main3__subbtn">Читать полностью</div>
+                                        </div>
+                                    </div>
+                                    <div class="tovar-main3__item">
+                                        <div class="tovar-main3__body1">
+                                            <div class="tovar-main3__row">
+                                                <div class="tovar-main3__image">
+                                                    <img src="img/men.svg" alt="">
+                                                </div>
+                                                <div class="tovar-main3__block">
+                                                    <div class="tovar-main3__subrow">
+                                                        <div class="tovar-main3__name">Анатолий Петров</div>
+                                                        <div class="tovar-main3__icon">
+                                                            <img src="img/icon.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="shop__rating">
+                                                        <div class="shop__rating1"></div>
+                                                        <div class="shop__rating2"></div>
+                                                        <div class="shop__rating3"></div>
+                                                        <div class="shop__rating4"></div>
+                                                        <div class="shop__rating4"></div>
+                                                    </div>
+                                                    <div class="tovar-main3__sulka">vk.com/anatoliy</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tovar-main3__body2">
+                                            <div class="tovar-main3__text">Заказал 5кг мяса, живу в Московской области. Как и обещал оператор, привезли через 1,5 часа. Свежее, как будто было живое еще по дороге. Действительно натуральные продукты. Я обязательно буду заказывать дальше. А теперь подробнее о плюсах и минусах всего магази...</div>
+                                            <div class="tovar-main3__subbtn">Читать полностью</div>
+                                        </div>
+                                    </div>
+                                    <div class="tovar-main3__item">
+                                        <div class="tovar-main3__body1">
+                                            <div class="tovar-main3__row">
+                                                <div class="tovar-main3__image">
+                                                    <img src="img/men.svg" alt="">
+                                                </div>
+                                                <div class="tovar-main3__block">
+                                                    <div class="tovar-main3__subrow">
+                                                        <div class="tovar-main3__name">Анатолий Петров</div>
+                                                        <div class="tovar-main3__icon">
+                                                            <img src="img/icon.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="shop__rating">
+                                                        <div class="shop__rating1"></div>
+                                                        <div class="shop__rating2"></div>
+                                                        <div class="shop__rating3"></div>
+                                                        <div class="shop__rating4"></div>
+                                                        <div class="shop__rating4"></div>
+                                                    </div>
+                                                    <div class="tovar-main3__sulka">vk.com/anatoliy</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tovar-main3__body2">
+                                            <div class="tovar-main3__text">Заказал 5кг мяса, живу в Московской области. Как и обещал оператор, привезли через 1,5 часа. Свежее, как будто было живое еще по дороге. Действительно натуральные продукты. Я обязательно буду заказывать дальше. А теперь подробнее о плюсах и минусах всего магази...</div>
+                                            <div class="tovar-main3__subbtn">Читать полностью</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tovar-main3__next">Еще</div>
+                                <div class="tovar-main3__btn">Добавить отзыв</div>
+                            </div>
+                        </div>
+                        <div class="tovar-block2__body2 tovar-body2">
+                            <div class="tovar-body2__title">Закажите на 3000 RUB и получите</div>
+                            <div class="tovar-body2__row1">
+                                <div class="tovar-body2__img">
+                                    <img src="img/copilka.svg" alt="">
+                                </div>
+                                <div class="tovar-body2__text"><span>30 RUB</span> на бонусный счет</div>
+                            </div>
+                            <div class="tovar-body2__row2">
+                                <div class="tovar-body2__img2">
+                                    <img src="img/car.svg" alt="">
+                                </div>
+                                <div class="tovar-body2__text"><span>Бесплатная доставка</span></div>
+                            </div>
+                            <div class="tovar-body2__subtext">1000 (минимальный заказ)</div>
+                            <div class="tovar-body2__block">
+                                <div class="tovar-body2__body">
+                                    <div class="tovar-body2__num1">0</div>
+                                    <div class="tovar-body2__line"><span></span></div>
+                                    <div class="tovar-body2__num2">3000</div>
+                                </div>
+                            </div>
+                            <div class="tovar-body2__subtext2">Осталось <span>1988 RUB</span> до бесплатной доставки</div>
+                        </div>
+                    </div>
+                </div>       
+            </div>
+            <div class="delivery">
+    <div class="container container-header">
+        <div class="delivery__block">
+            <div class="delivery__body">
+                <div class="delivery__text">Бесплатная доставка по Москве и Области от 2999 RUB!</div>
+                <div class="delivery__btn">Оформить</div>
+            </div>
+            <div class="delivery__image">
+                <img src="img/4.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+        </main>
+        
+<footer>
+    <div class="footer">
+        <div class="container container-header">
+            <div class="footer__body">
+                <div class="footer__row1">
+                    <div class="footer__block1">
+                        <div class="footer__title">Бесплатный звонок по РФ</div>
+                        <div class="footer__text">+7 (831) 282-60-00</div>
+                    </div>
+                    <div class="footer__block1">
+                        <div class="footer__title">Для приема заказов</div>
+                        <div class="footer__text">+7 (904) 066-46-85</div>
+                    </div>
+                    <div class="footer__block2">
+                        <a href="https://m.vk.com/main.php?subdir=login&m=1&email=" class="footer__text2">Мы в вконтакте ></a>
+                        <a href="https://www.instagram.com/" class="footer__text2">Мы в instagram ></a>
+                    </div>
+                    <div class="footer__block3">
+                        <div class="header__prof footer__text3">Войти / Регистрация</div>
+                    </div>
+                </div>
+                <div class="footer__subbody">
+                    <div class="footer__subtext1">График работы по будням с 9:00 до 18:00</div>
+                    <div class="footer__subtext2">Email: info@.ru</div>
+                    <a href="support.html" class="footer__subtext3">Поддержка</a>
+                    <div class="footer__row2">
+                        <div class="footer__sulka">©2020. Пиросмани</div>
+                        <div class="footer__sulka">Условия и соглашения</div>
+                        <div class="footer__sulka">Политика конфиденциальности</div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+</footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.min.js"></script>
+</body>
+</html>

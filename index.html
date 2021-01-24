@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Pirosmani</title>
+</head>
+<body>
+    <div class="otsuv"></div>
+    <div class="popup">
+    <div class="cabinet">
+        <div class="cabinet__close">
+            <img src="img/close.svg" alt="">
+        </div>
+        <div class="cabinet__img">
+            <img src="img/personGrey.svg" alt="">
+        </div>
+        <div class="cabinet__text">Войти в личный кабинет</div>
+        <input type="tel" name="" placeholder="Телефон" id="" class="cabinet__tel">
+        <input type="password" name="" placeholder="Пароль" id="" class="cabinet__pass">
+        <div class="cabinet__ask">Забыли пароль?</div>
+        <div class="cabinet__btn">Войти</div>
+        <div class="cabinet__subtext">Впервые у нас? <span>Зарегистрироваться</span></div>
+    </div>
+    <div class="pasrec">
+        <div class="cabinet__close">
+            <img src="img/close.svg" alt="">
+        </div>
+        <div class="cabinet__img">
+            <img src="img/personGrey.svg" alt="">
+        </div>
+        <div class="cabinet__text">Восстановление пароля</div>
+        <input type="tel" name="" placeholder="Введите телефон" id="" class="cabinet__tel">
+        <input type="password" name="" minlength="6" placeholder="Новый пароль (мин. 6 символов)" id="" class="cabinet__pass">
+        <input type="password" name="" placeholder="Подтвердите пароль" id="" class="cabinet__pass">
+        <div class="pasrec__row">
+            <div class="pasrec__subtext">Отменить</div>
+            <div class="pasrec__btn">Обновить пароль</div>
+        </div>
+    </div>
+    <div class="regist">
+        <div class="cabinet__close">
+            <img src="img/close.svg" alt="">
+        </div>
+        <div class="cabinet__img">
+            <img src="img/personGrey.svg" alt="">
+        </div>
+        <div class="cabinet__text">Регистрация</div>
+        <input type="tel" name="" placeholder="Введите телефон" id="" class="cabinet__tel">
+        <input type="password" name="" minlength="6" placeholder="Пароль" id="" class="cabinet__pass">
+        <input type="password" name="" placeholder="Подтвердите пароль" id="" class="cabinet__pass">
+        <div class="regist__body">
+            <label for="element1" class="custom-checkbox">
+                <input type="checkbox" name="" id="element1" class="regist__1">
+                <span>Хочу получать выгодные предложения от магазина</span>
+            </label>
+            <label for="element2" class="custom-checkbox">
+                <input type="checkbox" name="" id="element2" class="regist__1" checked="checked">
+                <span><p>Принимаю условия <em>Пользовательского соглашения,</em> <i>Политики конфиденциальности</i></p></span>
+            </label>
+        </div>
+        <div class="cabinet__btn regist__btn">Зарегистрироваться</div>
+    </div>
+    <div class="subscribe">
+        <div class="cabinet__close">
+            <img src="img/close.svg" alt="">
+        </div>
+        <div class="cabinet__img">
+            <img src="img/email.svg" alt="">
+        </div>
+        <div class="cabinet__text">Подпишитесь на нашу рассылку и получите промокод на 500 RUB!</div>
+        <input type="email" name="" placeholder="E-mail" id="" class="subscribe__email">
+        <div class="cabinet__btn">Отправить</div>
+    </div>
+    <div class="bron">
+        <div class="bron__close">
+            <img src="img/plusBig.png" alt="">
+        </div>
+        <div class="bron__title">Бронирование стола</div>
+        <input type="text" placeholder="Имя" class="bron__input-big bron__name">
+        <div class="bron__row">
+            <div class="bron__column">
+                <input type="tel" placeholder="+380" class="bron__input-small bron__tel">
+                <label for="time" class="bron__label">
+                    <span>Время:</span>
+                    <input type="time" name="" id="time" class="bron__input-small bron__time">
+                </label>
+            </div>
+            <div class="bron__column">
+                <input type="number" placeholder="Количество человек" class="bron__input-small bron__num">
+                <label for="time" class="bron__label">
+                    <span>Дата:</span>
+                    <input type="date" placeholder="" name="" id="" class="bron__input-small bron__date">
+                </label>
+            </div>
+        </div>
+        <div class="bron__btn">Забронировать</div>
+    </div>
+</div>
+<header>
+    <div class="container">
+        <div class="container-header">
+            <div class="header__block">
+                <div class="header__burger">
+                    <div class="menu__icon"></div>
+                </div>
+                <a href="index.html" class="header__logo">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <div class="header__nav nav">
+                    <div class="big__nav">
+                        <div class="nav__menu-active">
+                            <div class="nav__menu-block">
+                                <div class="nav__menu-body">
+                            <div class="nav__menu-img">
+                                <img src="img/1.svg" alt="">
+                            </div>
+                            <div class="nav__menu-text">Супы</div>
+                                </div>
+                                <div class="nav__menu-body">
+                            <div class="nav__menu-img">
+                                <img src="img/2.svg" alt="">
+                            </div>
+                            <div class="nav__menu-text">Хачапури</div>
+                                </div>
+                                <div class="nav__menu-body">
+                            <div class="nav__menu-img">
+                                <img src="img/3.svg" alt="">
+                            </div>
+                            <div class="nav__menu-text">Холодные закуски</div>
+                                </div>
+                                <div class="nav__menu-body">
+                            <div class="nav__menu-img">
+                                <img src="img/4.svg" alt="">
+                            </div>
+                            <div class="nav__menu-text">Хинкали</div>
+                                </div>
+                                <div class="nav__menu-body">
+                            <div class="nav__menu-img">
+                                <img src="img/5.svg" alt="">
+                            </div>
+                            <div class="nav__menu-text">Шашлык</div>
+                                </div>
+                                <div class="nav__menu-body">
+                            <div class="nav__menu-img">
+                                <img src="img/6.svg" alt="">
+                            </div>
+                            <div class="nav__menu-text">Соусы</div>
+                                </div>
+                                <div class="nav__menu-body">
+                            <div class="nav__menu-img">
+                                <img src="img/7.svg" alt="">
+                            </div>
+                            <div class="nav__menu-text">Салаты</div>
+                                </div>
+                                <div class="nav__menu-body">
+                            <div class="nav__menu-img">
+                                <img src="img/8.svg" alt="">
+                            </div>
+                            <div class="nav__menu-text">Горячие блюда</div>
+                                </div>
+                                <div class="nav__menu-body">
+                            <div class="nav__menu-img">
+                                <img src="img/9.svg" alt="">
+                            </div>
+                            <div class="nav__menu-text">Гарнир</div>
+                                </div>
+                                <div class="nav__menu-body">
+                            <div class="nav__menu-img">
+                                <img src="img/10.svg" alt="">
+                            </div>
+                            <div class="nav__menu-text">Десерты</div>
+                                </div>
+                                <div class="nav__menu-body">
+                            <div class="nav__menu-img">
+                                <img src="img/11.svg" alt="">
+                            </div>
+                            <div class="nav__menu-text">Напитки</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__list">
+                        <div class="nav__item nav__menu ">Меню</div> 
+                        <a href="dostavka.html" class="nav__item">Доставка</a>
+                        <a href="oplata.html" class="nav__item">Оплата</a>
+                        <a class="nav__item nav__item-bron">Бронь стола</a>
+                    </div>
+                </div>
+                <div class="header__tel"><span>+7 (831) 282-60-00</span></div>
+                <div class="header__prof"></div>
+                <a href="cart.html" class="header__cart"></a>
+            </div>
+            <div class="shadow">
+                    <div class="shadow__header"></div>
+                    <div class="shadow__main">
+                        <div class="shadow__list">
+                            <div class="shadow__item shadow__item-menu">
+                                <div class="shadow__img">
+                                    <img src="img/12.svg" alt="">
+                                </div>
+                                <div class="shadow__text shadow__text-menu"><span>Меню</span></div>
+                                <div class="shadow__btn shadow__btn0">
+                                    <img src="img/ArrowWhite.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="shadow__block">
+                        <div class="nav__menu-body nav__menu-body-shadow">
+                    <div class="nav__menu-img nav__menu-img-shadow">
+                        <img src="img/1.1.svg" alt="">
+                    </div>
+                    <div class="nav__menu-text nav__menu-text-shadow">Супы</div>
+                        </div>
+                        <div class="nav__menu-body nav__menu-body-shadow">
+                    <div class="nav__menu-img nav__menu-img-shadow">
+                        <img src="img/2.1.svg" alt="">
+                    </div>
+                    <div class="nav__menu-text nav__menu-text-shadow">Хачапури</div>
+                        </div>
+                        <div class="nav__menu-body nav__menu-body-shadow">
+                    <div class="nav__menu-img nav__menu-img-shadow">
+                        <img src="img/3.1.svg" alt="">
+                    </div>
+                    <div class="nav__menu-text nav__menu-text-shadow">Холодные закуски</div>
+                        </div>
+                        <div class="nav__menu-body nav__menu-body-shadow">
+                    <div class="nav__menu-img nav__menu-img-shadow">
+                        <img src="img/4.1.svg" alt="">
+                    </div>
+                    <div class="nav__menu-text nav__menu-text-shadow">Хинкали</div>
+                        </div>
+                        <div class="nav__menu-body nav__menu-body-shadow">
+                    <div class="nav__menu-img nav__menu-img-shadow">
+                        <img src="img/5.1.svg" alt="">
+                    </div>
+                    <div class="nav__menu-text nav__menu-text-shadow">Шашлык</div>
+                        </div>
+                        <div class="nav__menu-body nav__menu-body-shadow">
+                    <div class="nav__menu-img nav__menu-img-shadow">
+                        <img src="img/6.1.svg" alt="">
+                    </div>
+                    <div class="nav__menu-text nav__menu-text-shadow">Соусы</div>
+                        </div>
+                        <div class="nav__menu-body nav__menu-body-shadow">
+                    <div class="nav__menu-img nav__menu-img-shadow">
+                        <img src="img/7.1.svg" alt="">
+                    </div>
+                    <div class="nav__menu-text nav__menu-text-shadow">Салаты</div>
+                        </div>
+                        <div class="nav__menu-body nav__menu-body-shadow">
+                    <div class="nav__menu-img nav__menu-img-shadow">
+                        <img src="img/8.1.svg" alt="">
+                    </div>
+                    <div class="nav__menu-text nav__menu-text-shadow">Горячие блюда</div>
+                        </div>
+                        <div class="nav__menu-body nav__menu-body-shadow">
+                    <div class="nav__menu-img nav__menu-img-shadow">
+                        <img src="img/9.1.svg" alt="">
+                    </div>
+                    <div class="nav__menu-text nav__menu-text-shadow">Гарнир</div>
+                        </div>
+                        <div class="nav__menu-body nav__menu-body-shadow">
+                    <div class="nav__menu-img nav__menu-img-shadow">
+                        <img src="img/10.1.svg" alt="">
+                    </div>
+                    <div class="nav__menu-text nav__menu-text-shadow">Десерты</div>
+                        </div>
+                        <div class="nav__menu-body nav__menu-body-shadow">
+                    <div class="nav__menu-img nav__menu-img-shadow2">
+                        <img src="img/11.1.svg" alt="">
+                    </div>
+                    <div class="nav__menu-text nav__menu-text-shadow">Напитки</div>
+                        </div>
+                            </div>
+                            <div class="shadow__item">
+                          <div class="shadow__img">
+                              <img src="img/13.svg" alt="">
+                          </div>
+                          <a href="dostavka.html" class="shadow__text"><span>Доставка</span></a>
+                          <a href="dostavka.html" class="shadow__btn">
+                              <img src="img/ArrowWhite.svg" alt="">
+                          </a>
+                            </div>
+                            <div class="shadow__item">
+                          <div class="shadow__img">
+                              <img src="img/14.svg" alt="">
+                          </div>
+                          <a href="oplata.html" class="shadow__text"><span>Оплата</span></a>
+                          <a href="oplata.html" class="shadow__btn">
+                              <img src="img/ArrowWhite.svg" alt="">
+                          </a>
+                            </div>
+                            <div class="shadow__item shadow__item-sub">
+                        <div class="shadow__img">
+                            <img src="img/15.svg" alt="">
+                        </div>
+                        <a href="support.html" class="shadow__text"><span>Поддержка</span></a>
+                        <a href="support.html" class="shadow__btn">
+                            <img src="img/ArrowWhite.svg" alt="">
+                        </a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>  
+    </div> 
+</header>
+
+
+
+    <div class="zabron nav__item-bron">
+        <div class="zabron__block">
+            <div class="zabron__text">Забронировать стол</div>
+        </div>
+    </div>
+    <main>
+        <div class="sub">
+    <div class="container">
+        <div class="sub__block">
+            <div class="sub__row">
+                <div class="sub__body">
+                    <div class="sub__text1">Подарок на первый заказ.</div>
+                    <div class="sub__text2">Получите 500 рублей за подписку на рассылку</div>
+                    <div class="sub__btn">Подписаться</div>
+                </div>
+                <div class="sub__image">
+                    <img src="img/1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        
+        <div class="categories">
+    <div class="container container-header">
+        <div class="categories__block">
+            <div class="categories__slider">
+                <div class="categories__item"><span>СУПЫ</span></div>
+                <div class="categories__item"><span>ХАЧАПУРИ</span></div>
+                <div class="categories__item"><span>СУПЫ</span></div>
+                <div class="categories__item"><span>ХАЧАПУРИ</span></div>
+                <div class="categories__item"><span>СУПЫ</span></div>
+                <div class="categories__item"><span>ХАЧАПУРИ</span></div>
+            </div>
+            <div class="categories__arrow-next">
+                <img src="img/Arrow.svg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="shop">
+    <div class="container">
+        <div class="shop__title">Все товары</div>
+        <div class="shop__bigrow">
+            <div class="shop__row">
+            <div class="shop__item">
+                <a href="tovar.html" class="shop__image">
+                    <img src="img/2.png" alt="">
+                </a>
+                <a href="tovar.html" class="shop__name">Голень Говядины</a>
+                <div class="shop__text">Описание мраморной говядины, состоящее из нескольких преложений. Можно наполнить.</div>
+                <div class="shop__rating">
+                    <div class="shop__rating1"></div>
+                    <div class="shop__rating2"></div>
+                    <div class="shop__rating3"></div>
+                    <div class="shop__rating4"></div>
+                    <div class="shop__rating5"></div>
+                </div>
+                <div class="shop__price">1 050 ₽/кг<span>За 500гр.</span></div>
+                <div class="shop__btn">В корзину</div>
+            </div>
+            <div class="shop__item">
+                <a href="tovar.html" class="shop__image">
+                    <img src="img/2.png" alt="">
+                </a>
+                <a href="tovar.html" class="shop__name">Голень Говядины</a>
+                <div class="shop__text">Описание мраморной говядины, состоящее из нескольких преложений. Можно наполнить.</div>
+                <div class="shop__rating">
+                    <div class="shop__rating1"></div>
+                    <div class="shop__rating2"></div>
+                    <div class="shop__rating3"></div>
+                    <div class="shop__rating4"></div>
+                    <div class="shop__rating5"></div>
+                </div>
+                <div class="shop__price">1 050 ₽/кг<span>За 500гр.</span></div>
+                <div class="shop__btn">В корзину</div>
+            </div>
+            <div class="shop__item">
+                <a href="tovar.html" class="shop__image">
+                    <img src="img/2.png" alt="">
+                </a>
+                <a href="tovar.html" class="shop__name">Голень Говядины</a>
+                <div class="shop__text">Описание мраморной говядины, состоящее из нескольких преложений. Можно наполнить.</div>
+                <div class="shop__rating">
+                    <div class="shop__rating1"></div>
+                    <div class="shop__rating2"></div>
+                    <div class="shop__rating3"></div>
+                    <div class="shop__rating4"></div>
+                    <div class="shop__rating5"></div>
+                </div>
+                <div class="shop__price">1 050 ₽/кг<span>За 500гр.</span></div>
+                <div class="shop__btn">В корзину</div>
+            </div>
+            <div class="shop__item">
+                <a href="tovar.html" class="shop__image">
+                    <img src="img/2.png" alt="">
+                </a>
+                <a href="tovar.html" class="shop__name">Голень Говядины</a>
+                <div class="shop__text">Описание мраморной говядины, состоящее из нескольких преложений. Можно наполнить.</div>
+                <div class="shop__rating">
+                    <div class="shop__rating1"></div>
+                    <div class="shop__rating2"></div>
+                    <div class="shop__rating3"></div>
+                    <div class="shop__rating4"></div>
+                    <div class="shop__rating5"></div>
+                </div>
+                <div class="shop__price">1 050 ₽/кг<span>За 500гр.</span></div>
+                <div class="shop__btn">В корзину</div>
+            </div>
+            <div class="shop__item">
+                <a href="tovar.html" class="shop__image">
+                    <img src="img/2.png" alt="">
+                </a>
+                <a href="tovar.html" class="shop__name">Голень Говядины</a>
+                <div class="shop__text">Описание мраморной говядины, состоящее из нескольких преложений. Можно наполнить.</div>
+                <div class="shop__rating">
+                    <div class="shop__rating1"></div>
+                    <div class="shop__rating2"></div>
+                    <div class="shop__rating3"></div>
+                    <div class="shop__rating4"></div>
+                    <div class="shop__rating5"></div>
+                </div>
+                <div class="shop__price">1 050 ₽/кг<span>За 500гр.</span></div>
+                <div class="shop__btn">В корзину</div>
+            </div>
+            <div class="shop__item">
+                <a href="tovar.html" class="shop__image">
+                    <img src="img/2.png" alt="">
+                </a>
+                <a href="tovar.html" class="shop__name">Голень Говядины</a>
+                <div class="shop__text">Описание мраморной говядины, состоящее из нескольких преложений. Можно наполнить.</div>
+                <div class="shop__rating">
+                    <div class="shop__rating1"></div>
+                    <div class="shop__rating2"></div>
+                    <div class="shop__rating3"></div>
+                    <div class="shop__rating4"></div>
+                    <div class="shop__rating5"></div>
+                </div>
+                <div class="shop__price">1 050 ₽/кг<span>За 500гр.</span></div>
+                <div class="shop__btn">В корзину</div>
+            </div>
+            <div class="shop__item">
+                <a href="tovar.html" class="shop__image">
+                    <img src="img/2.png" alt="">
+                </a>
+                <a href="tovar.html" class="shop__name">Голень Говядины</a>
+                <div class="shop__text">Описание мраморной говядины, состоящее из нескольких преложений. Можно наполнить.</div>
+                <div class="shop__rating">
+                    <div class="shop__rating1"></div>
+                    <div class="shop__rating2"></div>
+                    <div class="shop__rating3"></div>
+                    <div class="shop__rating4"></div>
+                    <div class="shop__rating5"></div>
+                </div>
+                <div class="shop__price">1 050 ₽/кг<span>За 500гр.</span></div>
+                <div class="shop__btn">В корзину</div>
+            </div>
+            <div class="shop__item">
+                <a href="tovar.html" class="shop__image">
+                    <img src="img/2.png" alt="">
+                </a>
+                <a href="tovar.html" class="shop__name">Голень Говядины</a>
+                <div class="shop__text">Описание мраморной говядины, состоящее из нескольких преложений. Можно наполнить.</div>
+                <div class="shop__rating">
+                    <div class="shop__rating1"></div>
+                    <div class="shop__rating2"></div>
+                    <div class="shop__rating3"></div>
+                    <div class="shop__rating4"></div>
+                    <div class="shop__rating5"></div>
+                </div>
+                <div class="shop__price">1 050 ₽/кг<span>За 500гр.</span></div>
+                <div class="shop__btn">В корзину</div>
+            </div>
+            <div class="shop__item">
+                <a href="tovar.html" class="shop__image">
+                    <img src="img/2.png" alt="">
+                </a>
+                <a href="tovar.html" class="shop__name">Голень Говядины</a>
+                <div class="shop__text">Описание мраморной говядины, состоящее из нескольких преложений. Можно наполнить.</div>
+                <div class="shop__rating">
+                    <div class="shop__rating1"></div>
+                    <div class="shop__rating2"></div>
+                    <div class="shop__rating3"></div>
+                    <div class="shop__rating4"></div>
+                    <div class="shop__rating5"></div>
+                </div>
+                <div class="shop__price">1 050 ₽/кг<span>За 500гр.</span></div>
+                <div class="shop__btn">В корзину</div>
+            </div>
+            <div class="shop__item">
+                <a href="tovar.html" class="shop__image">
+                    <img src="img/2.png" alt="">
+                </a>
+                <a href="tovar.html" class="shop__name">Голень Говядины</a>
+                <div class="shop__text">Описание мраморной говядины, состоящее из нескольких преложений. Можно наполнить.</div>
+                <div class="shop__rating">
+                    <div class="shop__rating1"></div>
+                    <div class="shop__rating2"></div>
+                    <div class="shop__rating3"></div>
+                    <div class="shop__rating4"></div>
+                    <div class="shop__rating5"></div>
+                </div>
+                <div class="shop__price">1 050 ₽/кг<span>За 500гр.</span></div>
+                <div class="shop__btn">В корзину</div>
+            </div>
+            <div class="shop__item">
+                <a href="tovar.html" class="shop__image">
+                    <img src="img/2.png" alt="">
+                </a>
+                <a href="tovar.html" class="shop__name">Голень Говядины</a>
+                <div class="shop__text">Описание мраморной говядины, состоящее из нескольких преложений. Можно наполнить.</div>
+                <div class="shop__rating">
+                    <div class="shop__rating1"></div>
+                    <div class="shop__rating2"></div>
+                    <div class="shop__rating3"></div>
+                    <div class="shop__rating4"></div>
+                    <div class="shop__rating5"></div>
+                </div>
+                <div class="shop__price">1 050 ₽/кг<span>За 500гр.</span></div>
+                <div class="shop__btn">В корзину</div>
+            </div>
+            <div class="shop__item">
+                <a href="tovar.html" class="shop__image">
+                    <img src="img/2.png" alt="">
+                </a>
+                <a href="tovar.html" class="shop__name">Голень Говядины</a>
+                <div class="shop__text">Описание мраморной говядины, состоящее из нескольких преложений. Можно наполнить.</div>
+                <div class="shop__rating">
+                    <div class="shop__rating1"></div>
+                    <div class="shop__rating2"></div>
+                    <div class="shop__rating3"></div>
+                    <div class="shop__rating4"></div>
+                    <div class="shop__rating5"></div>
+                </div>
+                <div class="shop__price">1 050 ₽/кг<span>За 500гр.</span></div>
+                <div class="shop__btn">В корзину</div>
+            </div>
+            <div class="shop__item">
+                <a href="tovar.html" class="shop__image">
+                    <img src="img/2.png" alt="">
+                </a>
+                <a href="tovar.html" class="shop__name">Голень Говядины</a>
+                <div class="shop__text">Описание мраморной говядины, состоящее из нескольких преложений. Можно наполнить.</div>
+                <div class="shop__rating">
+                    <div class="shop__rating1"></div>
+                    <div class="shop__rating2"></div>
+                    <div class="shop__rating3"></div>
+                    <div class="shop__rating4"></div>
+                    <div class="shop__rating5"></div>
+                </div>
+                <div class="shop__price">1 050 ₽/кг<span>За 500гр.</span></div>
+                <div class="shop__btn">В корзину</div>
+            </div>
+            <div class="shop__item">
+                <a href="tovar.html" class="shop__image">
+                    <img src="img/2.png" alt="">
+                </a>
+                <a href="tovar.html" class="shop__name">Голень Говядины</a>
+                <div class="shop__text">Описание мраморной говядины, состоящее из нескольких преложений. Можно наполнить.</div>
+                <div class="shop__rating">
+                    <div class="shop__rating1"></div>
+                    <div class="shop__rating2"></div>
+                    <div class="shop__rating3"></div>
+                    <div class="shop__rating4"></div>
+                    <div class="shop__rating5"></div>
+                </div>
+                <div class="shop__price">1 050 ₽/кг<span>За 500гр.</span></div>
+                <div class="shop__btn">В корзину</div>
+            </div>
+            <div class="shop__item">
+                <a href="tovar.html" class="shop__image">
+                    <img src="img/2.png" alt="">
+                </a>
+                <a href="tovar.html" class="shop__name">Голень Говядины</a>
+                <div class="shop__text">Описание мраморной говядины, состоящее из нескольких преложений. Можно наполнить.</div>
+                <div class="shop__rating">
+                    <div class="shop__rating1"></div>
+                    <div class="shop__rating2"></div>
+                    <div class="shop__rating3"></div>
+                    <div class="shop__rating4"></div>
+                    <div class="shop__rating5"></div>
+                </div>
+                <div class="shop__price">1 050 ₽/кг<span>За 500гр.</span></div>
+                <div class="shop__btn">В корзину</div>
+            </div>
+            </div>
+        </div>
+        <div class="shop__pagination">
+            <div class="shop__pagination-item shop__pagination-item-active">1</div>
+            <div class="shop__pagination-item">2</div>
+            <div class="shop__pagination-item">3</div>
+            <div class="shop__pagination-item">4</div>
+            <div class="shop__pagination-item">5</div>
+            <div class="shop__pagination-item">6</div>
+        </div>
+    </div>
+    <div class="shop__big--image">
+        <img src="img/3.png" alt="">
+    </div>
+</div>
+        <div class="delivery">
+    <div class="container container-header">
+        <div class="delivery__block">
+            <div class="delivery__body">
+                <div class="delivery__text">Бесплатная доставка по Москве и Области от 2999 RUB!</div>
+                <div class="delivery__btn">Оформить</div>
+            </div>
+            <div class="delivery__image">
+                <img src="img/4.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+    </main>
+    
+<footer>
+    <div class="footer">
+        <div class="container container-header">
+            <div class="footer__body">
+                <div class="footer__row1">
+                    <div class="footer__block1">
+                        <div class="footer__title">Бесплатный звонок по РФ</div>
+                        <div class="footer__text">+7 (831) 282-60-00</div>
+                    </div>
+                    <div class="footer__block1">
+                        <div class="footer__title">Для приема заказов</div>
+                        <div class="footer__text">+7 (904) 066-46-85</div>
+                    </div>
+                    <div class="footer__block2">
+                        <a href="https://m.vk.com/main.php?subdir=login&m=1&email=" class="footer__text2">Мы в вконтакте ></a>
+                        <a href="https://www.instagram.com/" class="footer__text2">Мы в instagram ></a>
+                    </div>
+                    <div class="footer__block3">
+                        <div class="header__prof footer__text3">Войти / Регистрация</div>
+                    </div>
+                </div>
+                <div class="footer__subbody">
+                    <div class="footer__subtext1">График работы по будням с 9:00 до 18:00</div>
+                    <div class="footer__subtext2">Email: info@.ru</div>
+                    <a href="support.html" class="footer__subtext3">Поддержка</a>
+                    <div class="footer__row2">
+                        <div class="footer__sulka">©2020. Пиросмани</div>
+                        <div class="footer__sulka">Условия и соглашения</div>
+                        <div class="footer__sulka">Политика конфиденциальности</div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
