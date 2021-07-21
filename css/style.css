@@ -936,7 +936,7 @@ html {
   overflow-y: scroll;
 }
 
-.custom-checkbox span {
+.custom-checkbox .span {
   cursor: pointer;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -954,7 +954,7 @@ html {
   margin-bottom: 12px;
 }
 
-.custom-checkbox span::before {
+.custom-checkbox .span::before {
   content: '';
   display: inline-block;
   width: 14px;
@@ -969,20 +969,20 @@ html {
   margin-right: 12px;
 }
 
-.custom-checkbox span p em,
-.custom-checkbox span p i {
+.custom-checkbox .span p em,
+.custom-checkbox .span p i {
   color: #00ac4e;
 }
 
 /* стили при наведении курсора на checkbox */
 
-.custom-checkbox > input:not(:disabled):not(:checked) + span:hover::before {
+.custom-checkbox > input:not(:disabled):not(:checked) + .span:hover::before {
   border-color: #00ac4e;
 }
 
 /* стили для чекбокса, находящегося в состоянии checked */
 
-.custom-checkbox > input:checked + span::before {
+.custom-checkbox > input:checked + .span::before {
   border-color: #00ac4e;
   background-color: #00ac4e;
 }
