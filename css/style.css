@@ -969,8 +969,8 @@ html {
   margin-right: 12px;
 }
 
-.custom-checkbox .span p em,
-.custom-checkbox .span p i {
+.custom-checkbox .span .p .em,
+.custom-checkbox .span .p .i {
   color: #00ac4e;
 }
 
